@@ -5,14 +5,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 
-public class Sunny {
+public class sanny {
 
     @GetMapping("/")
-    public String solve(){
+    public String Solve(){
         return "Tekion";
     }
 
-    @GetMapping("/sunny")
+    @GetMapping("/sanny")
     public String Solve2(){
         return "We are on 2nd page";
     }
